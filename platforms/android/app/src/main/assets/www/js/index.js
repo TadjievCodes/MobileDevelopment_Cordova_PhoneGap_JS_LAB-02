@@ -17,7 +17,7 @@ function onDeviceReady() {
    document.addEventListener('resume', onResume, false);
 }
 
-
+ 
 function onPause() {
     // Handle the pause event
     navigator.notification.alert(
